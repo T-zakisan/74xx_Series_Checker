@@ -28,7 +28,7 @@
 ## パーツリスト
 | パーツ名 | 備考 |
 |:----|:----:|
-| [RP2040マイコンボードキット](https://akizukidenshi.com/catalog/g/gK-17542/) |  |
+| [RP2040マイコンボードキット](https://akizukidenshi.com/catalog/g/gK-17542/) | [CirCuitPythonのファームウェアを書き込むこと](https://circuitpython.org/board/raspberry_pi_pico/) |
 | [ゼロプレッシャーＩＣソケット 14P](https://akizukidenshi.com/catalog/g/gP-12073/) ||
 | [Ｉ２Ｃ接続小型ＬＣＤモジュール（8×2行）ピッチ変換キット](https://akizukidenshi.com/catalog/g/gK-06795/) ||
 | [角型ランド両面スルーホールガラスコンポジット・ユニバーサル基板 Cタイプ(72×47mm)](https://akizukidenshi.com/catalog/g/gP-09747/) ||
