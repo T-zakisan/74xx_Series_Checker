@@ -33,7 +33,7 @@
 | [Ｉ２Ｃ接続小型ＬＣＤモジュール（8×2行）ピッチ変換キット](https://akizukidenshi.com/catalog/g/gK-06795/) ||
 | [ネジ　M3xNN] ||
 | [六角両メネジ　FB3‐5](https://akizukidenshi.com/catalog/g/gP-07469/) ||
-| []() ||
+| [角型ランド両面スルーホールガラスコンポジット・ユニバーサル基板 Cタイプ(72×47mm)](https://akizukidenshi.com/catalog/g/gP-09747/) ||
 | []() ||
 
 
