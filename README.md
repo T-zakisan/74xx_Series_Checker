@@ -7,6 +7,7 @@
 そこで、74シリーズの判定と稼働状態を表示するガジェットを作製した。  
 
 過去に作成したArduino版であるが、動作している動画を示しておく。
+
 https://github.com/T-zakisan/74xx_Series_Cheker/assets/43605763/89aa2501-7571-49c8-97e4-ecc775599b73
 
 
