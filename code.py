@@ -27,16 +27,16 @@ for ii, pin in enumerate( myPinFix ) :		# enumerate(添字)込みの繰り返し
 
 # 入力パターン
 myINPUT  = ( ( 0, 0 ),
-	    	 ( 0, 1 ),
-			 ( 1, 0 ),
-			 ( 1, 1 ) )
+             ( 0, 1 ),
+             ( 1, 0 ),
+             ( 1, 1 ) )
 # 出力パターン
 myOUTPUT = ( ( 1, 1, 1, 0 ),
-			 ( 1, 0, 0, 0 ),
-			 ( 1, 0 ),
-			 ( 0, 0, 0, 1 ),
-		 	 ( 0, 1, 1, 1 ),
-		 	 ( 0, 1, 1, 0 ) )
+             ( 1, 0, 0, 0 ),
+             ( 1, 0 ),
+             ( 0, 0, 0, 1 ),
+             ( 0, 1, 1, 1 ),
+             ( 0, 1, 1, 0 ) )
 
 
 # 74シリーズ(14ピン) 1:In	0:Out
@@ -56,7 +56,7 @@ NumMatch = [ [ 0, "" ] for ii in range( len( IC ) ) ]
 #         3 IC-1      4 IC-2      5 IC-3      6 IC-4     7 IC-5      8 IC-6
 myPin = ( board.GP3,  board.GP4,  board.GP5,  board.GP2, board.GP13, board.GP14,
 #         9 IC-8      10 IC-9     11 IC-10    12 IC-11   13 IC-12    14 IC-13
-		  board.GP12, board.GP11, board.GP10, board.GP9, board.GP8,  board.GP7 )
+          board.GP12, board.GP11, board.GP10, board.GP9, board.GP8,  board.GP7 )
 myPins = []
 for ii in myPin :
 	tmp = digitalio.DigitalInOut( ii )
