@@ -59,7 +59,9 @@ https://github.com/T-zakisan/74xx_Series_Cheker/assets/43605763/89aa2501-7571-49
 
 
 ## アサイン
-配線の取り回しの関係からGPIOでGNDやVccを取得している
+下表のアサインに従い配線を施す。  
+ちなみに配線の取り回しの関係からGPIOで`GND`や`Vcc(3.3V)`を得ているが、マイコンオンボード上のソレを利用して問題ない。  
+独自にアサインを変更した場合は、上記ソースコード(`code.py`)を書き換えること！
 
 | マイコン端子 | パーツ端子 | 備考|
 |:----:|:----|:----|
@@ -91,7 +93,12 @@ https://github.com/T-zakisan/74xx_Series_Cheker/assets/43605763/89aa2501-7571-49
 
 
 ## プログラム
-上記の **code.py** をマイコンに保存
+1. マイコンに[ファームウェア](https://circuitpython.org/board/raspberry_pi_pico/)を書き込む
+   - Pico用のファームウェアで問題ない
+   - 書き込み方は、[ココ](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython)を見るか、`CirCuitPython ファームウェア 書き込み方法` でググると日本語のドキュメントが出てくると思います。
+2. 上記の `code.py` をマイコンに保存
+3. 上記のライブラリ`[st7032i.py](https://gist.github.com/boochow/6ffd0c939abbcc1a9c62bf6ab6b60cef#file-st7032i-py)`を`マイコン内の/lib`に保存
+
 
 
 
