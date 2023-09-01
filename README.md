@@ -97,7 +97,7 @@ https://github.com/T-zakisan/74xx_Series_Cheker/assets/43605763/89aa2501-7571-49
    - Pico用のファームウェアで問題ない
    - 書き込み方は、[ココ](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython)を見るか、`CirCuitPython ファームウェア 書き込み方法` でググると日本語のドキュメントが出てくると思います。
 2. 上記の `code.py` をマイコンに保存
-3. 上記のライブラリ`[st7032i.py](https://gist.github.com/boochow/6ffd0c939abbcc1a9c62bf6ab6b60cef#file-st7032i-py)`を`マイコン内の/lib`に保存
+3. 上記のライブラリ`st7032i.py`を`マイコン内の/lib`に保存
 
 
 
