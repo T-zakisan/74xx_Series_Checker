@@ -5,7 +5,10 @@
 
 過去に作成したArduino版だが・・・  
 動作は同じです。
-https://github.com/T-zakisan/74xx_Series_Cheker/assets/43605763/f05ee7fa-28a4-48f7-9c1e-0430215bde9d
+
+
+https://github.com/T-zakisan/74xx_Series_Cheker/assets/43605763/89aa2501-7571-49c8-97e4-ecc775599b73
+
 
 
 
