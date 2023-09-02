@@ -2,7 +2,7 @@
 74シリーズ(14ピン)の確認プログラム(CircuitPython)
 """
 
-import board, digitalio, busio, re
+import board, digitalio, busio
 from ST7032i import ST7032i
 
 
