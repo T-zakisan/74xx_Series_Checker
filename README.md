@@ -108,8 +108,8 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 | DXF | レーザー加工機でアクリル板（２ｍｍ）を切断・彫刻 |
 | SVG | 　〃　 |
 
+![タイトルなし](https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/fa5a7cfd-f1e0-4d45-9869-e81ebbe8d518)
 
-![タイトルなし](https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/1b8c5607-918c-49d4-8e71-8118e3e1eb85)
 
 
 
