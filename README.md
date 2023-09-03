@@ -37,8 +37,8 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 |:----:|:----|
 | 型番下２桁 | 74xxのxxの部分　NANDなら**00** |
 | ロジック名 | NAND、ORなど |
-| 可動ビット | NANDなら1-4、NOTなら1-6　不良はx |
-| 総ビット数 | NANDなら4、NOTなら6 |
+| 可動ビット | NOTなら1-6、それ以外なら1-4　（不良はx） |
+| 総ビット数 | NOTなら6、それ以外なら4 |
 
 
 
