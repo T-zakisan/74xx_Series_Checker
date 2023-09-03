@@ -50,10 +50,10 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 | [ゼロプレッシャーＩＣソケット 14P](https://akizukidenshi.com/catalog/g/gP-12073/) ||
 | [Ｉ２Ｃ接続小型ＬＣＤモジュール（8×2行）ピッチ変換キット](https://akizukidenshi.com/catalog/g/gK-06795/) ||
 | [角型ランド両面スルーホールガラスコンポジット・ユニバーサル基板 Cタイプ(72×47mm)](https://akizukidenshi.com/catalog/g/gP-09747/) ||
-| [ネジ　M3xN20mm]() | 4 |
-| [ナット　M3]() | 4 |
-| [ネジ　M2x10mm]() | 2 |
-| [ナット　M2]() | 2 |
+| ネジ　M3xN10mm | 4 |
+| ナット　M3 | 4 |
+| ネジ　M2x10mm | 2 |
+| ナット　M2 | 2 |
 
 
 
