@@ -94,7 +94,7 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 ## プログラム
 1. マイコンに[ファームウェア](https://circuitpython.org/board/raspberry_pi_pico/)を書き込む
    - Pico用のファームウェアで問題ない
-   - 書き込み方は、[ココ](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython)を見るか、`CirCuitPython ファームウェア 書き込み方法` でググると日本語のドキュメントが出てくると思います。
+   - 書き込み方は、[ココ](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython)を見るか、`CirCuitPython ファームウェア 書き込み方法` でググると日本語のドキュメントがヒットする
 2. 上記の `code.py` をマイコンに保存
 3. 上記のライブラリ`st7032i.py`を`マイコン内の/lib`に保存
 
