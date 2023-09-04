@@ -7,6 +7,8 @@ from ST7032i import ST7032i
 
 
 ### 初期設定 ############################################################
+PRINTFLAG = False # デバッグ用のprint　通常Flase
+
 # 入出力     0 3.3V     1 GND      2 3.3V     3 GND 
 myPinFix = ( board.GP0, board.GP1, board.GP6, board.GP15 )
 myPinsFix = []
@@ -97,7 +99,7 @@ def myJudge() :
 			
 			if NumMatch[ii][1].count( "x" ) == 6: NumMatch[ii][0] = -1
 			NumMatch[ii][1] += "/6"
-			print( myID + "(", myName ,")\t : " + NumMatch[ii][1] )
+			if PRINTFLAG==True : print( myID + "(", myName ,")\t : " + NumMatch[ii][1] )
 		
 
 		#  Case NOR ※I/Oのassignが異なる
@@ -121,7 +123,7 @@ def myJudge() :
 			
 			if NumMatch[ii][1].count( "x" )==4 : NumMatch[ii][0] = -1
 			NumMatch[ii][1] += "__/4"
-			print( myID + "(", myName ,")\t : " + NumMatch[ii][1] )
+			if PRINTFLAG==True : print( myID + "(", myName ,")\t : " + NumMatch[ii][1] )
 
 
 		# Case OtherIC
@@ -146,11 +148,11 @@ def myJudge() :
 
 			if NumMatch[ii][1].count( "x" )==4 : NumMatch[ii][0] = -1
 			NumMatch[ii][1] += "__/4"
-			print( myID + "(", myName ,")\t : " + NumMatch[ii][1] )
+			if PRINTFLAG==True : print( myID + "(", myName ,")\t : " + NumMatch[ii][1] )
 
 
 	# もっとも一致したIC情報を液晶に表示
-	print("------------------------------------")
+	if PRINTFLAG==True : print("------------------------------------")
 	id = 0
 	flag = False
 	for ii, ic in enumerate( IC ) :
@@ -159,13 +161,13 @@ def myJudge() :
 
 	lcd.clear()
 	if flag == False :
-		print( "UnKnown!" )
+		if PRINTFLAG==True : print( "UnKnown!" )
 		lcd.set_cursor( 0, 0 ); lcd.print( 'UnKnown!' )
 		lcd.set_cursor( 0, 1 ); lcd.print( '????????' )
 		time.sleep( 0.5 )
 
 	else :
-		print( IC[id][0] + "(", IC[id][1] ,")\t : " + NumMatch[id][1] )
+		if PRINTFLAG==True : print( IC[id][0] + "(", IC[id][1] ,")\t : " + NumMatch[id][1] )
 		lcd.set_cursor( 0, 0 ); lcd.print( str( IC[id][0] + " " + IC[id][1] ) )
 		lcd.set_cursor( 0, 1 ); lcd.print( NumMatch[id][1] )
 		time.sleep( 0.5 )
