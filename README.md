@@ -53,6 +53,8 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 | ナット　M3 | 4 |
 | ネジ　M2x10mm | 2 |
 | ナット　M2 | 2 |
+| アクリル板 | 2mm |
+| ジャンパ線 | 適当 |
 
 
 
@@ -64,7 +66,7 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 | マイコン端子 | パーツ端子 | 備考|
 |:----:|:----|:----|
 | 0 | LCD (Vcc) |  |
-| 1 | LCD (GND) |  |
+| 1 | LCD, Sw (GND) |  |
 | 2 | 74シリーズ (4) | In / Output |
 | 3 | 74シリーズ (1) | In / Output |
 | 4 | 74シリーズ (2) | In / Output |
@@ -81,6 +83,8 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 | 15 | 74シリーズ (7) | GND |
 | 26 | LCD (SDA) |  |
 | 27 | LCD (SCL) |  |
+| 28 | SW (+) |  |
+
 
 
 ## 必須ライブラリ
@@ -107,7 +111,7 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 | DXF | レーザー加工機でアクリル板（２ｍｍ）を切断・彫刻 |
 | SVG | 　〃　 |
 
-![タイトルなし](https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/fa5a7cfd-f1e0-4d45-9869-e81ebbe8d518)
+![3Dモデル](https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/fa5a7cfd-f1e0-4d45-9869-e81ebbe8d518)
 
 
 
@@ -123,26 +127,8 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/6e22e466-add5-4
 
 
 # 反省
-- 判定表示までタイムラグがある  
-毎回マイコンを**リセット**していることが原因と考えられる。
-解決方法として、タクトスイッチを追加し判定処理を行うことやマイコンをArduinoに変更すればいいだろう。  
-ただし、上記に示した動画の程度であるため、使用状況に応じて判断するべきだ。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+当初マイコンオンボードにある***RUN***ボタンを押すことで、ロジックＩＣの判定を行っていた。  
+しかし、CirCuitPythonは起動にやや時間がかかるため、***RUN***ボタンを押してから、ロジックＩＣの判定までにタイムラグがあった。  
+そこで、別途タクトスイッチを追加し、そのスイッチを押したときに判定することで、再起動を回避した。
+また、[Alarm](**https://docs.circuitpython.org/en/latest/shared-bindings/alarm/index.html**)を利用し、消費電力を低減している。  
 
