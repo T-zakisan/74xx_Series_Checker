@@ -98,6 +98,12 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/a2278c76-78e3-4
 
 
 
+![PXL_20230906_125826660](https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/e16e0275-b2d5-45fc-b604-68fefb651746)
+
+
+
+
+
 ## 必須ライブラリ
 | ライブラリ名 | 備考|
 |:----|:----|
