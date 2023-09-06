@@ -141,5 +141,6 @@ https://github.com/T-zakisan/74xx_Series_Checker/assets/43605763/a2278c76-78e3-4
 当初マイコンオンボードにある***RUN***ボタンを押すことで、ロジックＩＣの判定を行っていた。  
 しかし、CirCuitPythonは起動にやや時間がかかるため、***RUN***ボタンを押してから、ロジックＩＣの判定までにタイムラグがあった。  
 そこで、別途タクトスイッチを追加し、そのスイッチを押したときに判定することで、再起動を回避した。  
-また、[Alarm](**https://docs.circuitpython.org/en/latest/shared-bindings/alarm/index.html**)を利用し、消費電力を低減している。  
+また、スイッチを押すまでは、[Alarm](**https://docs.circuitpython.org/en/latest/shared-bindings/alarm/index.html**)(**light sleep**)を利用することでプログラムを停止させ、消費電力を低減させている。
+
 
